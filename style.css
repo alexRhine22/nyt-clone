@@ -1,0 +1,93 @@
+:root {
+  --black: #000;
+  --dark-grey: #333;
+  --light-black: #121212;
+  --light-grey: #666;
+  --lighter-grey: #888;
+  --white: #fff;
+}
+
+/** 
+* Globals
+*/
+* {
+  margin: 0;
+}
+
+/** 
+* Helpers
+*/
+.text-center {
+  text-align: center;
+}
+
+.text--md {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.5625rem;
+}
+
+.title--lg {
+  font-size: 1.9375rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.container-lg {
+  max-width: 100%;
+}
+.img-fluid {
+  height: auto;
+  max-width: 100%;
+}
+
+/** 
+* Intro
+*/
+.intro {
+}
+.intro__title {
+  color: var(--light-black);
+  font-style: italic;
+  margin: 0 20px 1rem;
+  text-align: center;
+}
+.intro__description {
+  color: var(--light-grey);
+  margin: 10px 20px 32px;
+}
+.intro__credit {
+  color: var(--lighter-grey);
+  font-size: 12px;
+  letter-spacing: 0.12px;
+  line-height: 18px;
+}
+.intro__author {
+  color: var(--dark-grey);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.028px;
+  line-height: 18px;
+  margin: 0 20px 15px;
+  text-transform: capitalize;
+}
+.intro__author a {
+  color: var(--dark-grey);
+  display: inline-block;
+}
+.intro__links {
+  color: var(--dark-grey);
+  display: flex;
+  margin: 0 20px 1.5625rem;
+}
+
+/** 
+* article
+*/
+.article {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.article__paragraph {
+  margin-bottom: 0.78125rem;
+}
