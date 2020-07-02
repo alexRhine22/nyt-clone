@@ -17,6 +17,11 @@
   margin: 0;
 }
 
+h1 {
+  font-size: 1.9375rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
 h2 {
   font-size: 20px;
   line-height: 30px;
@@ -28,6 +33,10 @@ p {
   line-height: 1.5625rem;
 }
 @media (min-width: 739px) {
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
   p {
     font-size: 1.25rem;
     line-height: 1.875rem;
@@ -70,9 +79,6 @@ p {
   border-bottom: 1px solid var(--border-color);
 }
 .header__button {
-  align-items: normal;
-  background-color: transparent;
-  border: none;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -101,6 +107,18 @@ p {
 }
 
 /** 
+* main 
+*/
+.main {
+  margin-top: 1.5625rem;
+}
+@media (min-width: 739px) {
+  .main {
+    margin-top: 3.75rem;
+  }
+}
+
+/** 
 * Intro
 */
 .intro {
@@ -116,7 +134,13 @@ p {
   color: var(--light-black);
   font-style: italic;
   margin: 0 20px 1rem;
-  text-align: center;
+}
+@media (min-width: 739px) {
+  .intro__title {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
 }
 .intro__description {
   color: var(--light-grey);
@@ -200,6 +224,47 @@ p {
 }
 .article__paragraph {
   margin-bottom: 0.78125rem;
+}
+.article__btn-container {
+  align-items: end;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)) repeat scroll 0%
+    0%;
+  display: flex;
+  height: 155px;
+  margin-top: -165px;
+  position: relative;
+  width: 100%;
+}
+.article__button {
+  background: rgb(237, 242, 245) none repeat scroll 0% 0%;
+  border-radius: 3px;
+  border: 1px solid rgb(147, 171, 188);
+  cursor: pointer;
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  height: 40px;
+  margin: 10px auto;
+  text-transform: uppercase;
+  width: 250px;
+}
+.article__btn-container.active {
+  display: none;
+}
+.article__hidden-content {
+  display: none;
+}
+.article__hidden-content.active {
+  display: block;
+}
+@media (min-width: 732px) {
+  .article__btn-container {
+    display: none;
+  }
+  .article__hidden-content {
+    display: block;
+  }
 }
 
 /** 
