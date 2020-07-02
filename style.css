@@ -74,9 +74,15 @@ p {
 * Header
 */
 .header {
+  /* max-width: 1605px;; */
   display: flex;
+  justify-content: center;
   padding: 18px;
   border-bottom: 1px solid var(--border-color);
+}
+.header__content {
+  max-width: 1605px;
+  width: 100%;
 }
 .header__button {
   cursor: pointer;
