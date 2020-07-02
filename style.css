@@ -133,7 +133,7 @@ p {
 .intro__title {
   color: var(--light-black);
   font-style: italic;
-  margin: 0 20px 1rem;
+  margin: 0 1.25rem 1rem;
 }
 @media (min-width: 739px) {
   .intro__title {
@@ -147,21 +147,21 @@ p {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.125rem;
-  margin: 10px 20px 32px;
+  margin: 0.625rem 1.25rem 2rem;
 }
 .intro__credit {
   color: var(--lighter-grey);
-  font-size: 12px;
-  letter-spacing: 0.12px;
-  line-height: 18px;
+  font-size: 0.75rem;
+  letter-spacing: 0.0075rem;
+  line-height: 1.125rem;
 }
 .intro__author {
   color: var(--dark-grey);
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  letter-spacing: 0.028px;
+  letter-spacing: 0.0018rem;
   line-height: 18px;
-  margin: 0 20px 15px;
+  margin: 0 1.25rem 0.9375rem;
   text-transform: capitalize;
 }
 .intro__author a {
@@ -213,8 +213,8 @@ p {
 * article
 */
 .article {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
   max-width: 600px;
 }
 @media (min-width: 768px) {
@@ -232,7 +232,7 @@ p {
     0%;
   display: flex;
   height: 155px;
-  margin-top: -165px;
+  margin-top: -10.3125rem;
   position: relative;
   width: 100%;
 }
@@ -242,10 +242,10 @@ p {
   border: 1px solid rgb(147, 171, 188);
   cursor: pointer;
   display: block;
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: bold;
   height: 40px;
-  margin: 10px auto;
+  margin: 0.625rem auto;
   text-transform: uppercase;
   width: 250px;
 }
@@ -272,7 +272,7 @@ p {
 */
 .footer {
   border-top: 4px solid var(--border-color);
-  padding: 0 20px;
+  padding: 0 1.25rem;
 }
 .footer__accordion,
 .footer__list {
@@ -287,10 +287,10 @@ p {
   border-bottom: 1px solid var(--footer-border-color);
 }
 .footer__accordion-title {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
   letter-spacing: 0.04rem;
-  line-height: 44px;
+  line-height: 2.75rem;
   text-transform: uppercase;
 }
 .footer__accordion-title:hover {
@@ -302,10 +302,10 @@ p {
   justify-content: center;
 }
 .footer__list li {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 400;
-  line-height: 20px;
-  padding: 5px;
+  line-height: 1.25rem;
+  padding: 0.3125rem;
 }
 .footer__list a {
   color: var(--light-grey);
@@ -318,10 +318,10 @@ p {
 .footer__copyright {
   color: var(--light-grey);
   display: block;
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 400;
-  line-height: 11px;
-  padding: 10px 0;
+  line-height: 0.6875rem;
+  padding: 0.625rem 0;
   text-align: center;
   text-decoration: none;
 }
